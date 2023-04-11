@@ -103,7 +103,7 @@ function updateValues(){
     localStorage.setItem('transactions', JSON.stringify(transactions))
  }
 // init app
-function init(){
+function init(){ m
     list.innerHTML= '';
 
     transactions.forEach(addTransactionDOM)
